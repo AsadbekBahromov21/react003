@@ -1,0 +1,66 @@
+.mobail__wrapper{
+    // margin-top: 50px;
+    width: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 1px;
+    // height: 100vh;
+    background: #F5F5F5;
+    padding-top: 60px;
+}
+.mobail__text{
+    display: flex   ;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.mobail__p{
+    font-size: 48px;
+    font-weight: 600;
+}
+.mobail__theme{
+    display: flex;
+    gap: 20px;
+}
+.foto{
+    width: 100%;
+    height: 400px;
+}
+.button{
+    width: 80px;
+    padding: 8px 0 8px 0;
+    margin-left: 15px;
+    border-radius: 14px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+.mabail__theme{
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    // flex-wrap: wrap;
+    // text-align: center;
+}
+@media (max-width:450px) {
+    .mobail__p{
+        font-size: 28px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .foto{
+    width: 100%;
+    height: 250px;
+
+}
+ .hero__key{
+    white-space: nowrap;
+}   
+
+
+}
